@@ -3,7 +3,7 @@ let usuario = JSON.parse(localStorage.getItem("usuarioAutenticado"));
 if (usuario) {
     document.getElementById("boasVindas").textContent = `Olá, ${usuario.nome}`;
 } else {
-    window.location.href = "login.html"; 
+    window.location.href = "index.html"; 
 }
 
 function alerta() {
